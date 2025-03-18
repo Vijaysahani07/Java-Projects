@@ -13,6 +13,8 @@ public class CheckEvenOrOdd {
     System.out.println("Enter Number, Which you wants to check Even or Odd");
     int number = scanner.nextInt();
 
+    scanner.close();
+
     if (number % 2 == 0) {
       System.out.println(number + " is Even number");
     } else {
